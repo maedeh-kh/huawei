@@ -1,0 +1,421 @@
+@media (min-width: 992px) {
+    html[data-url*="/giv/"] .h1style {
+      position: relative;
+      height: 597px;
+    }
+    html[data-url*="/giv/"] .h1style > img.bg {
+      position: absolute;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      width: auto;
+      left: 50%;
+      max-width: none;
+    }
+  }
+  @media (min-width: 992px) {
+    .givindex {
+      position: relative;
+      height: 597px;
+    }
+    .givindex > img.bg {
+      position: absolute;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      width: auto;
+      left: 50%;
+      max-width: none;
+    }
+    .givindex.content-img-box .content-box .subtitle {
+      max-width: 50% !important;
+      margin-bottom: 20px;
+    }
+    html[data-url*="/giv/"] .h1style.content-img-box .content-box .subtitle {
+      max-width: 50% !important;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .grid-box-new .content {
+    padding-right: 30px;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    .grid-box-new .content {
+      padding-right: 0px;
+    }
+  }
+  @media (max-width: 767px) {
+    .grid-box-new [class*="col-"]:first-child > .list-item img {
+      box-shadow: none;
+    }
+  }
+  
+  html[lang="mn"] .content-box .numbers ul.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 992px) {
+    html[lang="mn"] .about-timeline .content-box h2 {
+      top: 50px !important;
+    }
+  }
+  
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .pvp-tab-box .panel-img-list .col-md-4 {
+      display: block !important;
+    }
+  }
+  @media (max-width: 991px) {
+    .page-sec .news-detail-box .news-detail-content {
+      padding-bottom: 60px;
+    }
+    .all-page + .page-nav {
+      bottom: 10px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .swiper-component-1 .thumbsslider .swiper-wrapper {
+      border: 0 !important;
+      justify-content: left !important;
+    }
+    .swiper-component-1 .thumbsslider .swiper-slide {
+      border-bottom: 1px solid #ccc;
+      min-height: 33.7px;
+    }
+    html[lang="zh"] .swiper-component-1 .thumbsslider .swiper-wrapper,
+    html[lang="cn"] .swiper-component-1 .thumbsslider .swiper-wrapper {
+      justify-content: center !important;
+      border-bottom: 1px solid #ccc !important;
+    }
+    html[lang="zh"] .swiper-component-1 .thumbsslider .swiper-slide,
+    html[lang="cn"] .swiper-component-1 .thumbsslider .swiper-slide {
+      border-bottom: 0;
+    }
+    html[lang="zh"]
+      .swiper-component-1
+      .thumbsslider
+      .swiper-slide.swiper-slide-thumb-active,
+    html[lang="cn"]
+      .swiper-component-1
+      .thumbsslider
+      .swiper-slide.swiper-slide-thumb-active {
+      border-bottom: 3px solid #c7000b;
+    }
+  }
+  
+  html[data-url*="cookies-policy"] .table > tbody > tr > td {
+    border: 1px solid #c0c0c0;
+  }
+  html[data-url*="cookies-policy"] .table {
+    border-collapse: separate;
+    border: 1px solid #c0c0c0;
+  }
+  
+  .container.contact-us.dsrms.new-forms-box {
+    max-width: 1128px;
+  }
+  html[data-url*="personal-"] .dsrms form {
+    margin-top: 0px;
+  }
+  html[data-url*="personal-"] .form02 .code-pic {
+    position: absolute;
+    right: -115px;
+    top: 43px;
+  }
+  html[data-url*="personal-"] .form02 .refresh {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: 7px;
+    vertical-align: middle;
+    margin-left: 10px;
+    background: url(https://e.huawei.com/Assets/enp/v2/img/verificationcode-refresh.png)
+      top left no-repeat;
+  }
+  @font-face {
+    font-family: "icomoon1";
+    src: url("/Assets/corp/2020/fonts/tip_download.eot?hsb166");
+    src: url("/Assets/corp/2020/fonts/tip_download.eot?hsb166#iefix")
+        format("embedded-opentype"),
+      url("/Assets/corp/2020/fonts/tip_download.ttf?hsb166") format("truetype"),
+      url("/Assets/corp/2020/fonts/tip_download.woff?hsb166") format("woff"),
+      url("/Assets/corp/2020/fonts/tip_download.svg?hsb166#icomoon") format("svg");
+  }
+  html[data-url*="personal-"]
+    .new-forms-box.dsrms
+    .forms-warp
+    label.error
+    em::before {
+    font-family: "icomoon1" !important;
+    content: "\e900" !important;
+    padding-right: 5px;
+    color: #f57069;
+  }
+  html[data-url*="personal-"] .new-forms-box.dsrms form .forms-warp label.error {
+    margin-top: 5px;
+    color: #f66f6a;
+  }
+  html[data-url*="personal-"] .dsrms form .forms-warp .code-img em {
+    color: #fff;
+    font-size: 38px;
+  }
+  html[data-url*="personal-"] .new-forms-box.dsrms form .forms-warp em {
+    color: #fff;
+  }
+  html[data-url*="personal-"]
+    .new-forms-box.dsrms
+    form
+    .forms-warp
+    .btn:hover
+    em {
+    color: #fff;
+  }
+  html[data-url*="personal-"] .outer-chain h3 {
+    margin-top: 0;
+  }
+  @media (min-width: 768px) {
+    html[data-url*="personal-"]
+      .new-forms-box.dsrms
+      form
+      .forms-warp
+      label.error {
+      float: left;
+    }
+  }
+  @media (max-width: 992px) {
+    html[data-url*="personal-"] .form02 .code-pic {
+      position: absolute;
+      right: auto;
+      top: auto;
+      bottom: -20px;
+    }
+    html[data-url*="personal-"] .dsrms form .col-sm-6,
+    html[data-url*="personal-"] .dsrms form .col-sm-12 {
+      padding-right: 11px;
+      padding-left: 11px;
+    }
+  }
+  @media (max-width: 767px) {
+    html[data-url*="personal-"] .form02 .col-pic.col-sm-6 {
+      height: 145px;
+      text-align: left;
+    }
+    html[data-url*="personal-"] .form02 .code-pic {
+      bottom: -33px;
+    }
+    html[data-url*="personal-"]
+      .new-forms-box.dsrms
+      form.form02
+      .forms-warp
+      label.error {
+      text-align: right;
+      width: 100%;
+    }
+    html[data-url*="personal-"] .dsrms form.form02 {
+      padding: 40px 24px;
+    }
+  }
+  
+  .footer-flexd .footer-wrap .email-interface p,
+  .footer-flexd .footer-wrap p.success {
+    font-size: 0.78em;
+    font-weight: normal;
+  }
+  .footer-flexd .email-interface button {
+    margin: 10px 0 0 0;
+  }
+  .footer-flexd .footer-wrap p.success {
+    position: absolute;
+    bottom: 5px;
+    left: 135px;
+  }
+  
+  .olds-box .text-box p,
+  .olds-box .text-box1 p,
+  .olds-box .text-box2 p {
+    margin-bottom: 20px;
+  }
+  .olds-box .text-box ul,
+  .olds-box .text-box ol,
+  .olds-box .text-box1 ul,
+  .olds-box .text-box1 ol,
+  .olds-box .text-box2 ul,
+  .olds-box .text-box2 ol {
+    padding-left: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .olds-box .text-box ul li,
+  .olds-box .text-box1 ul li,
+  .olds-box .text-box2 ul li {
+    list-style-type: disc;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.875em;
+  }
+  .olds-box .text-box ol li,
+  .olds-box .text-box1 ol li,
+  .olds-box .text-box2 ol li {
+    list-style-type: decimal;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.875em;
+  }
+  
+  @media (min-width: 993px) {
+    html[data-url*="/corporate-information"] .content-icon-box .col-xs-6 {
+      width: 19.5%;
+    }
+  }
+  @media (min-width: 993px) and (max-width: 1300px) {
+    html[data-url*="/corporate-information"] .content-icon-box .row {
+      margin: 30px auto 0 auto;
+    }
+    html[data-url*="/corporate-information"] .content-icon-box .col-xs-6 .title {
+      font-weight: normal;
+      font-size: 1em;
+    }
+  }
+  @media (max-width: 992px) {
+    html[data-url*="/corporate-information"] .content-icon-box .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 767px) {
+    html[data-url*="/corporate-information"] .content-img-box img.bg {
+      max-width: none;
+      width: 160%;
+    }
+  }
+  .email-subscribe .subscription-error {
+    display: none;
+  }
+  .email-subscribe .subscription-error a {
+    text-decoration: underline;
+  }
+  .footer-wrap p.subscription-error {
+    font-size: 0.78em;
+    font-weight: normal;
+  }
+  .footer-wrap p.subscription-error a {
+    color: #fff;
+  }
+  @media (max-width: 991px) {
+    .video-box.show .content > div.video-js {
+      padding-top: 56.25% !important;
+    }
+  }
+  
+  .data-show-box .imgbox {
+    width: 100%;
+  }
+  .data-show-box .imgbox img {
+    width: 100%;
+  }
+  
+  .ui-helper-hidden {
+    display: none;
+  }
+  .ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none;
+  }
+  .ui-helper-clearfix:before,
+  .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+  }
+  .ui-helper-clearfix:after {
+    clear: both;
+  }
+  .ui-helper-zfix {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    -ms-filter: "alpha(opacity=0)";
+  }
+  
+  .ui-front {
+    z-index: 100;
+  }
+  
+  .sharing-video-box{
+    position: relative;
+    z-index: 10;
+  }
+  .scrollDown.header-affix.mobile-menu-open header.affix {
+    transform: none;
+  }
+  .about-quality.content-box h2 {
+    width: auto!important;
+  }
+  .btn-red{
+    color: #ffffff!important;
+    border: 1px solid #c7000b!important;
+    background-color: #c7000b!important;
+    -webkit-transition: background-color 0.2s!important;
+    transition: background-color 0.2s!important;
+  }
+  .btn-red:hover{
+    border: 1px solid #850F12!important;
+    background-color: #850F12!important;
+  }
+  @media (max-width: 767px) {
+  .main .value-tab.container-custom .tab-content .row .content .text h3{
+    margin-top: 0!important;
+    max-height: 96px!important;
+  }
+  }
+  
+  .container-custom.content-box .others-list ul li{
+    max-width: none !important;
+    padding: 0!important;
+  }
+  .container-custom.content-box .others-list .others-list-content h4{
+    word-break: normal!important;
+  }
+  ul.list2 li {
+    list-style-type: none !important;
+    padding-left: 15px;
+    position: relative;
+  }
+  ul.list2 li::before {
+    content: '';
+    position: absolute;
+    top: 0.9em;
+    left: 0;
+    width: 5px;
+    height: 2px;
+    background-color: #666;
+  }
+  @media (max-width: 420px) {
+    .top-nav .top-nav-height a {
+        width: 140px!important;
+    }
+  }
+  .banner-talk-content-list .banner-select .dropdown-menu{
+    overflow-y: auto;
+  }
